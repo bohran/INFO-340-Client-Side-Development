@@ -1,0 +1,60 @@
+/* Import Roboto 100 from google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
+/* Add rules to give your page the following style properties:
+    - The top level header should have a font-weight of 100, a font-family of 'Roboto', 
+        (with a backup of sans-serif), and should align the text to the center
+    - The table should take up half the page width.
+    - The table should be in the center of the page by properly setting the margin-left and margin-right properties.
+    - Each cell should have a `bottom-border` that is 1 pixel thick, solid, and gray-ish(#d3d3d3)
+    - Use the `border-collapse` property to `collapse` the borders between cells of the table
+    - The text of cells in the header row shuld be aligned to the left (not centered)
+    - The cells of the header row should have a text color of #1db954 (green)
+        and a background color of #eee (very light grey)
+    - The cells of the header row should have a height of `2rem`
+    - All cells (including the header cells) should have `5px` of `padding` around their content
+    - All images should have a height of 100px
+    - Odd rows should have a light gray background color of #eee 
+    - When you hover over a row, the row should have a pink background color
+*/
+
+
+h1 {
+    font-weight: 100; 
+    font-family: 'Roboto', 'sans-serif';
+    text-align: center;
+}
+
+table {
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+}
+
+th, td{
+  border-bottom: 1px solid #d3d3d3;
+  
+}
+th{
+    text-align: left; 
+    color: #1db954;
+    background-color: #eeeeee; 
+    height: 2rem;
+}
+tr:nth-child(odd){
+    background-color: #eee; 
+    
+}
+tr, th, td{
+    padding: 5px; 
+}
+
+tr:hover{
+    background-color: pink;
+}
