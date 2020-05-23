@@ -1,0 +1,44 @@
+{
+  "name": "exercise-04",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest -t problem[^E]"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas-prebuilt": "^2.0.0-alpha.14",
+    "eslint": "^4.8.0",
+    "jest-image-snapshot": "^1.0.1"
+  },
+  "dependencies": {},
+  "stylelint": {
+    "extends": "stylelint-config-recommended"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "shared-node-browser": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": "off",
+      "semi": [
+        "error",
+        "always",
+        {
+          "omitLastInOneLineBlock": true
+        }
+      ],
+      "camelcase": [
+        "error"
+      ]
+    }
+  }
+}
