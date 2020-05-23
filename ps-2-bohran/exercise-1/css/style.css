@@ -1,0 +1,85 @@
+/* Your CSS here */
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans:900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    color:#535353; 
+    font-family: 'Open Sans', sans-serif; 
+}
+main{
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+    margin-top: 5em; 
+}
+h1{
+    color: #4b2e83;
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 2.5rem;
+
+}
+h2{
+    color: #4b2e83;
+    font-family: 'Encode Sans', sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #4b2e83; 
+    padding: .75rem; 
+    width: 100%;
+}
+ li, a{
+     color: white; 
+     text-decoration: none;
+     column-span: 100%; 
+ }
+
+ li, ul {
+    display: inline;
+    padding: 1rem; 
+    margin: 0px; 
+    padding-top: .5rem; 
+    bottom: 0.65rem;
+ }
+ .searchBox {
+     float: right;
+ }
+
+ input {
+     font-size: 1rem; 
+     padding: .5rem; 
+     bottom: 0px;
+ }
+
+.fa{
+    font-size: 1.5rem; 
+    padding: .3rem; 
+}
+
+a:hover{
+    color: #b7a57a;
+    border-bottom: .6rem solid #b7a57a; 
+
+}
+
+a:focus{
+    color: #b7a57a;
+    border-bottom: .6rem solid #b7a57a;
+}
+
+a{
+    padding-bottom: .65rem; 
+}
+
+span{
+    padding: 0 1em;   
+    background-image: url("../img/ischool-symbol-white.png");
+    background-position: left; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
